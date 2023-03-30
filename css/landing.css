@@ -1,0 +1,15 @@
+body {
+   background: green;
+
+   height: 100vh;
+   font-size: 2rem;
+}
+
+body div#container {
+   background-color: antiquewhite;
+   padding: 15rem 30rem; 
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}

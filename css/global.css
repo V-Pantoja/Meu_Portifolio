@@ -1,5 +1,10 @@
 :root {
    font-size: 62.5%;
+
+   /* Colors */
+   --blue-strong: #072AC8;
+   --white: #EAEAEA;
+   --noite: #0A0F0D;
 }
 
 * {

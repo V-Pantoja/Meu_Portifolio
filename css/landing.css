@@ -52,8 +52,45 @@ div#box2 {
    width: 300px;
    height: 300px;
 
-   box-shadow: inset 0px -20px 12px var(--blue-strong);
-   border-radius: 10rem;
+   color: #FFF;
+
+   box-shadow: inset 0px -10px 15px var(--blue-strong);
+   border-radius: 20rem;
 
    transform: rotate(-25deg);
+}
+
+/* - - - - - - - - - - - - - - - - - - - - */
+div#acessar {
+   margin-left: 15rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+#acessar h1 {
+   font-size: 4rem;
+   text-align: center;
+}
+
+#acessar p {
+   margin: 6rem 0;
+
+   font-size: 2.5rem;
+   text-align: justify;
+   line-height: 3.2rem;
+}
+
+#acessar a {
+   background-color: var(--blue-strong);
+   color: var(--white);
+
+   width: 200px;
+   padding: 2rem;
+
+   text-decoration: none;
+   text-align: center;
+
+   border-radius: 20px;
 }
